@@ -13,7 +13,7 @@ Whenever you add, modify, or delete a skill inside `~/.skills/`:
 
 ## 2. Automatic Background Sync (systemd Service)
 
-A lightweight `systemd --user` background service runs automatically every **5 minutes** without requiring root/sudo permissions:
+A lightweight `systemd --user` background service runs automatically twice a day (at 12:00 AM and 12:00 PM) without requiring root/sudo permissions:
 
 * **Timer status**:
   ```bash
